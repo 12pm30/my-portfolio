@@ -52,11 +52,14 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text {
+    width: 100%;
+    padding-top: 156px;
+}
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
@@ -187,7 +190,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #2a2a2a;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -207,9 +210,11 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 184px;
+   height: 184px;
    border-radius: 100%;
+   margin-top: -12px;
+   margin-bottom: 12px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -237,8 +242,8 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 64px;
+   padding-bottom: 48px;
    overflow: hidden;
 }
 
@@ -269,8 +274,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
-   margin-top: 9px;
+   margin-bottom: 12px;
 }
 #resume .info span {
    margin-right: 5px;
@@ -292,15 +296,16 @@ ul#nav li.current a { color: #F06000; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+   margin-top: 36px;
    list-style: none;
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
+  	margin-bottom: 56px;
   	background: #ccc;
   	height: 42px;
   	border-radius: 3px;
+    margin-top: -8px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -309,7 +314,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -25px;
 }
 .bar-expand {
    position: absolute;
@@ -340,20 +345,30 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
-  	width: 90%;
+.python {
+  	width: 95%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
+.postgresql {
+  	width: 90%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
+.bootstrap {
+  	width: 95%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+.java {
+    width: 80%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.vhdl {
+    width: 65%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -639,7 +654,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/unnamed.jpeg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -650,7 +665,7 @@ call-to-action .button {
    overflow: hidden;
 }
 #testimonials .text-container {
-   padding-top: 96px;
+   padding-top: 48px;
    padding-bottom: 66px;
 }
 #testimonials h1 {
@@ -683,7 +698,7 @@ call-to-action .button {
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
-   font-size: 24px;
+   font-size: 20px;
    line-height: 48px;
    color: #fff
 }
@@ -789,9 +804,9 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
+   padding-top: 64px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #8f8f8f;
 }
 #contact .section-head { margin-bottom: 42px; }
 

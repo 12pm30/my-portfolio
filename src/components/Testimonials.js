@@ -20,7 +20,11 @@ export default class Testimonials extends Component {
                             <p>
                             {item.description}
                             </p>
-                            <cite>{item.name}</cite>
+                            <cite>
+                              <a href={item.testimonialLink} target="_blank" className="citeName" style={{ color: "#6694e0" }}>
+                                {item.name}
+                              </a>
+                            </cite>
                           </blockquote>
                         </li>
                       )
