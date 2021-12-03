@@ -39,9 +39,9 @@ let resumeData = {
         "MonthOfPassing":"April",
         "YearOfPassing":"2018",
         "Achievements": [
-            "Winner for the Computer Engineering Design Competition 2017-2018 Open House.",
+            "Winner of the Computer Engineering Design Competition 2017-2018 Open House.",
+            "Created a voice and gesture controlled TV set-top box for Capstone project.",
             "Awarded Dean's Scholar every year since 2013 - 2018 for academic excellence.",
-            "Awarded Queen's University Excellence Scholarship in 2013.",
             "Worked as a Teaching Assistant for 'Intro to Programming' course; assisted the students and the professor."
         ]
       }
@@ -56,9 +56,9 @@ let resumeData = {
             "Worked on VTS Market to create and improve a fully-integrated market solution in commercial real estate.",
             "Anchored a company-wide project based on Ruby-on-Rails, React and Apache Kafka which exponentially increased customer adoption of the product.",
             "Led a project to automatically audit any CRUD based request made throughout the product.",
-            "Mentored a few new hires on the team and made sure that they had a smooth onboarding experience.",
-            "Helped create several complicated front-end components in React/Typescript that got adopted organization wide and enhanced the user experience manyfold.",
+            "Mentored new team members and made sure that they had a smooth yet swift onboarding experience.",
             "Created a comprehensive guide/Trello board to improve the on-boarding experience for new hires while sharing the available resources with the existing members.",
+            "Helped create several complicated front-end components in React/Typescript that got adopted organization wide and enhanced the user experience manyfold.",
         ],
       },
       {
@@ -71,7 +71,7 @@ let resumeData = {
               "Was awarded 'Elevate our Best' at VMware in 2021 for fulfilling an important business requirement within a tight deadline, and for flexibility, commitment and domain knowledge",
               "Developed an open-source dependency scanner for all of Pivotal’s 80+ projects which continuously scanned over 12,000 dependencies per day allowing for seamless software releases across the company.",
               "Improved the accuracy of dependency scanner by 60% by increasing scan coverage and reducing bugs.",
-              "Saved 2 hours of manual work for the team per day, by leading a Ruby-on-Rails team project to revamp the user experience for customers.",
+              "Saved 2 hours/day of manual work for the team by leading a Ruby-on-Rails team project to revamp the customer UI experience.",
               "Implemented RBAC for our product and provided direct visibility for the customers into the status of their requests while maintaining the data privacy and security required.",
               "Successfully led a Ruby & Python based collaboration project between Pivotal/VMware to ensure smooth transition for product teams in switching the Licensing process.",
               "Top contributor to LicenseFinder and dependency-labeler, open-source products used for identifying dependencies and their licenses within a GitHub repository and container image respectively.",
